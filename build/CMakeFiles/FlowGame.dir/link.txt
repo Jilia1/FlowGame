@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\FlowGame.dir/objects.a
+C:\mingw64-14\bin\ar.exe qc CMakeFiles\FlowGame.dir/objects.a @CMakeFiles\FlowGame.dir\objects1.rsp
+C:\mingw64-14\bin\c++.exe -Wl,--whole-archive CMakeFiles\FlowGame.dir/objects.a -Wl,--no-whole-archive -o FlowGame.exe -Wl,--out-implib,libFlowGame.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FlowGame.dir\linkLibs.rsp
