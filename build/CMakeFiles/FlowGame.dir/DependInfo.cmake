@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/FlowGame/Game.cpp" "CMakeFiles/FlowGame.dir/Game.cpp.obj" "gcc" "CMakeFiles/FlowGame.dir/Game.cpp.obj.d"
+  "C:/FlowGame/Level.cpp" "CMakeFiles/FlowGame.dir/Level.cpp.obj" "gcc" "CMakeFiles/FlowGame.dir/Level.cpp.obj.d"
   "C:/FlowGame/main.cpp" "CMakeFiles/FlowGame.dir/main.cpp.obj" "gcc" "CMakeFiles/FlowGame.dir/main.cpp.obj.d"
   )
 

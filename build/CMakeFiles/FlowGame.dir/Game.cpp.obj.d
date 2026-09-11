@@ -1,4 +1,4 @@
-CMakeFiles/FlowGame.dir/main.cpp.obj: C:\FlowGame\main.cpp \
+CMakeFiles/FlowGame.dir/Game.cpp.obj: C:\FlowGame\Game.cpp \
  C:\FlowGame\Game.h C:/SFML/include/SFML/Graphics.hpp \
  C:/SFML/include/SFML/Graphics/BlendMode.hpp \
  C:/SFML/include/SFML/Graphics/Export.hpp C:/SFML/include/SFML/Config.hpp \

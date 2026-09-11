@@ -254,9 +254,6 @@ FlowGame_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 FlowGame_SOURCE_DIR:STATIC=C:/FlowGame
 
-//Path to a file.
-SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
-
 
 ########################
 # INTERNAL cache entries

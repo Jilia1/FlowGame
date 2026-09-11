@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/FlowGame.dir/Game.cpp.obj"
+  "CMakeFiles/FlowGame.dir/Game.cpp.obj.d"
+  "CMakeFiles/FlowGame.dir/Level.cpp.obj"
+  "CMakeFiles/FlowGame.dir/Level.cpp.obj.d"
   "CMakeFiles/FlowGame.dir/main.cpp.obj"
   "CMakeFiles/FlowGame.dir/main.cpp.obj.d"
   "FlowGame.exe"

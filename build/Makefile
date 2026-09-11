@@ -128,6 +128,54 @@ FlowGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlowGame.dir\build.make CMakeFiles/FlowGame.dir/build
 .PHONY : FlowGame/fast
 
+Game.obj: Game.cpp.obj
+.PHONY : Game.obj
+
+# target to build an object file
+Game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlowGame.dir\build.make CMakeFiles/FlowGame.dir/Game.cpp.obj
+.PHONY : Game.cpp.obj
+
+Game.i: Game.cpp.i
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlowGame.dir\build.make CMakeFiles/FlowGame.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlowGame.dir\build.make CMakeFiles/FlowGame.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+Level.obj: Level.cpp.obj
+.PHONY : Level.obj
+
+# target to build an object file
+Level.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlowGame.dir\build.make CMakeFiles/FlowGame.dir/Level.cpp.obj
+.PHONY : Level.cpp.obj
+
+Level.i: Level.cpp.i
+.PHONY : Level.i
+
+# target to preprocess a source file
+Level.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlowGame.dir\build.make CMakeFiles/FlowGame.dir/Level.cpp.i
+.PHONY : Level.cpp.i
+
+Level.s: Level.cpp.s
+.PHONY : Level.s
+
+# target to generate assembly for a file
+Level.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FlowGame.dir\build.make CMakeFiles/FlowGame.dir/Level.cpp.s
+.PHONY : Level.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... FlowGame
+	@echo ... Game.obj
+	@echo ... Game.i
+	@echo ... Game.s
+	@echo ... Level.obj
+	@echo ... Level.i
+	@echo ... Level.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

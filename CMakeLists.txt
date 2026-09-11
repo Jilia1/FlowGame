@@ -3,16 +3,37 @@ cmake_minimum_required(VERSION 3.20)
 project(FlowGame)
 
 set(CMAKE_CXX_STANDARD 17)
+
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(SFML_DIR "C:/SFML/lib/cmake/SFML")
+add_executable(FlowGame
 
-find_package(SFML 3.1 COMPONENTS Graphics Window System REQUIRED)
+    main.cpp
 
-add_executable(FlowGame main.cpp)
+    Game.cpp
+
+    Level.cpp
+
+)
+
+target_include_directories(FlowGame PRIVATE
+
+    C:/SFML/include
+
+)
+
+target_link_directories(FlowGame PRIVATE
+
+    C:/SFML/lib
+
+)
 
 target_link_libraries(FlowGame PRIVATE
-    SFML::Graphics
-    SFML::Window
-    SFML::System
+
+    sfml-graphics
+
+    sfml-window
+
+    sfml-system
+
 )
